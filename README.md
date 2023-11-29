@@ -76,3 +76,4 @@ e/ou atividades evolvendo programação em linguagem como PHP, C++, Python, Java
 <img src="./img/logo.png">
 <img src="./img/aranha.png">
 <img src="./img/dado.png">
+<img src="./img/cabaço.png">
