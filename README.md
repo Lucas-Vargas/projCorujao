@@ -73,4 +73,6 @@ e/ou atividades evolvendo programação em linguagem como PHP, C++, Python, Java
 <img src="./Telas/Home1.png">
 <img src="./Telas/editar1.png">
 <img src="./Telas/editar2.png">
-<img src="./img/Icon_Aranha.pdf">
+<img src="./img/logo.png">
+<img src="./img/aranha.png">
+<img src="./img/dado.png">
