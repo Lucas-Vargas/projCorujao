@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+body{
+    background-color: azure;
+    height: 100vh;
+}
+header{
+    background-image: linear-gradient(to right, #2951b8 , #b167df);
+    display: flex;
+    align-items: center;
+    flex-direction: row;   
+    justify-content: space-between;
+    height: 120px;
+    margin-top: 0;
+    width: 100vw;
+    margin-right: none;
+}
+#logoImg {
+    margin-top: 5px;
+    height: 110px;
+    width: 130px;
+    margin-left: 20px;
+}
+#btns {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+
+.btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 200%;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    z-index: +1;
+}
+a:hover {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    border-radius: 15px;
+}
+
+#btnDesafio{
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    font-size: 200%;
+    text-align: center;
+    width: 60%;
+    height: 110px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: azure;
+}
+
+#aDesafio{
+    color: black;
+}
+
+input {
+    display: flex;
+    justify-content: right;
+    margin-top: 40%;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #FF8C00;
+    font-size: 30px;
+}
+
+.btnCadastroAtivo {
+    display: flex;
+    background-color: #FF8C00;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    font-size: 200%;
+    width: 150px;
+    justify-content: center;
+}
+
+#master{
+    margin-top: 20px;
+    display: flex;
+    height: 70vh;
+    width: 100vw;
+
+}
+#enunciado{
+    border: 3px solid black;
+}
+#resposta{
+    overflow: hidden;
+    border-bottom: 2px black solid;
+
+}
+#enunciado textarea{
+    height: 100%; 
+    width: 100%;
+    font-size: 20px; 
+    resize: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+#textAreaResp{
+    height: 100%; 
+    width: 100%;
+    font-size: 20px; 
+    resize: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+#textAreaResp2{
+    height: 100%; 
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+#resposta textarea{
+    font-size: 20px;
+}
+footer {
+    background-image: linear-gradient(to right, #2951b8 , #b167df);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: none;
+    margin-top: 7%;
+}
+#imgFooter img{
+    width: 40px;
+}

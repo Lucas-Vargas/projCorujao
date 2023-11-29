@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+body{
+    background-color: azure;
+    height: 100vh;
+}
+header{
+    background-image: linear-gradient(to right, #2951b8 , #b167df);
+    display: flex;
+    align-items: center;
+    flex-direction: row;   
+    justify-content: space-between;
+    height: 120px;
+    margin-top: 0;
+    width: 100vw;
+    margin-right: none;
+}
+#logoImg {
+    margin-top: 5px;
+    height: 110px;
+    width: 130px;
+    margin-left: 20px;
+}
+#btns {
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 150px;
+}
+
+.btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 200%;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    z-index: +1;
+}
+a:hover {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    border-radius: 15px;
+}
+
+#btnPerfil{
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-start;
+    font-size: 200%;
+    text-align: center;
+    width: 60%;
+    height: 110px;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: azure;
+}
+
+#aPerfil{
+    color: black;
+}
+
+input {
+    display: flex;
+    justify-content: right;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #FF8C00;
+    font-size: 30px;
+}
+
+
+
+
+#mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+
+}
+#mainSection h1{
+    font-size: 70px;
+}
+#mainSection input{
+    width: 500px;
+    height: 30%;
+    font-size: 30px;
+}
+#mainSection #alterar{
+    width: 500px;
+    height: 10%;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
